@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React from 'react';
+import ReactNotification from './component/ReactNotification';
+import About from './component/About';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Rea
-        </a>
-      </header>
+      <div style={{height:'50px'}}></div>
+      <ReactNotification />
+      <div style={{height:'50px'}}></div>
+      <About />
     </div>
   );
 }
